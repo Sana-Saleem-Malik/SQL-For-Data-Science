@@ -1,3 +1,5 @@
+
+-- Dataset used - https://drive.google.com/file/d/17TXqIYnNmZYg9fd-raO3jIjFmXrYFH1z/view
 -- SORTING DATA
 SELECT name,(gross - budget) AS profit FROM movies ORDER BY profit DESC LIMIT 5
 SELECT * FROM movies ORDER BY genre, name DESC
